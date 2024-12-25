@@ -12,7 +12,6 @@ let table = document.querySelector("#sampleTable");
 
         row.append(col1, col2);
         table.prepend(row);
-        col2Num++;
-        col1Num = col2Num;
+        col1Num++;
         col2Num++;
       }
